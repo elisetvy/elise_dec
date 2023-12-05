@@ -4,6 +4,7 @@ import Landing from "./Landing";
 import Nav from "./Nav";
 import About from "./About";
 import Experience from "./Experience";
+import Contact from "./Contact";
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
             <Route path="/" element={<Landing />}></Route>
             <Route path="/about" element={<About />}></Route>
             <Route path="/experience" element={<Experience />}></Route>
-            <Route path="/contact" element={<Landing />}></Route>
+            <Route path="/contact" element={<Contact />}></Route>
             <Route path="*" element={<Navigate to="/" />}></Route>
         </Routes>
       </BrowserRouter>
