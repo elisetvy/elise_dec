@@ -23,7 +23,7 @@ function Experience() {
     }
 
     return (
-        <div className="mt-4 HELP">
+        <div className="HELP">
             { page === 1 && <>
             <div className="HELP">
                 <img src={Foqal_Slate} alt="foqal slate" />
