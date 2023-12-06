@@ -15,14 +15,16 @@ function Experience() {
     return (
         <div className="h-full flex flex-col justify-between">
             { page === 1 && <>
-            <div className="w-full h-5/6">
+            <div className="w-full h-5/6 flex justify-center items-center gap-2">
+                <i className="invisible bi bi-chevron-left hover:cursor-pointer"></i>
                 <img className="h-full object-cover" src={Foqal_Lottie} alt="foqal lottie" />
+                <i onClick={() => setPage(2)} className="bi bi-chevron-right hover:cursor-pointer"></i>
             </div>
             <div className="h-fit mt-2 flex justify-center gap-2">
-                <i onClick={e => { e.preventDefault(); setPage(1)}} className="bi bi-circle-fill text-[6px] hover:cursor-pointer"></i>
-                <i onClick={e => { e.preventDefault(); setPage(2)}} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
-                <i onClick={e => { e.preventDefault(); setPage(3)}} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
-                <i onClick={e => { e.preventDefault(); setPage(4)}} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
+                <i className="bi bi-circle-fill text-[6px]"></i>
+                <i onClick={() => setPage(2)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
+                <i onClick={() => setPage(3)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
+                <i onClick={() => setPage(4)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
             </div>
             <div className="h-1/2 mt-4 text-center">
             <div className="font-black">Foqal</div>
