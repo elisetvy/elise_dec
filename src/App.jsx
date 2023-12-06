@@ -9,7 +9,7 @@ import Contact from "./Contact";
 function App() {
 
   return (
-    <div className="w-screen h-screen flex flex-col justify-center items-center px-20 py-10">
+    <div className="w-screen h-screen flex flex-col justify-center items-center px-10 py-10">
       <div className="w-full h-full flex flex-col justify-between">
       <BrowserRouter>
       <div className="HELP">
