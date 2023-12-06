@@ -12,40 +12,34 @@ import Dermasuri from "./assets/Dermasuri - 1.png"
 function Experience() {
     const [page, setPage] = useState(1);
 
-    function next(e) {
-        e.preventDefault();
-
-        if (page <= 3) {
-            setPage(prev => prev += 1);
-        } else {
-            setPage(1);
-        }
-    }
-
     return (
-        <div className="HELP">
+        <div className="h-full flex flex-col justify-between">
             { page === 1 && <>
-            <div className="HELP">
-                <img src={Foqal_Slate} alt="foqal slate" />
-                <img src={Foqal_Lottie} alt="foqal lottie" />
+            <div className="w-full h-5/6">
+                <img className="h-full object-cover" src={Foqal_Lottie} alt="foqal lottie" />
             </div>
-            <div>
-            <div>Software Engineer Intern, Foqal</div>
-            <div>
-                <ul>
-                    <li>Debugged and configured Slate Text Editor</li>
-                    <li>Achieved CSP compliance by replacing Lottie animations with static images</li>
-                    <li>Collaborated on implementing the redesign of the client portal</li>
+            <div className="h-fit mt-2 flex justify-center gap-2">
+                <i onClick={e => { e.preventDefault(); setPage(1)}} className="bi bi-circle-fill text-[6px] hover:cursor-pointer"></i>
+                <i onClick={e => { e.preventDefault(); setPage(2)}} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
+                <i onClick={e => { e.preventDefault(); setPage(3)}} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
+                <i onClick={e => { e.preventDefault(); setPage(4)}} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
+            </div>
+            <div className="h-1/2 mt-4 text-center">
+            <div className="font-black">Foqal</div>
+            <div className="pt-2">
+                <ul className="list-disc list-inside px-6 text-sm">
+                    <li>Achieved Content Security Policy compliance by replacing Lottie animations containing inline styles with static images</li>
+                    <li>Debugged and configured Slate text editor to preserve formatting and save content properly</li>
+                    <li>Collaborated with a team on implementing the redesign of the client portal using CSS and Bootstrap</li>
                 </ul>
             </div>
             </div>
             </> }
             { page === 2 && <>
-            <div className="HELP">
-                <img src={LoveNotes_1} alt="love notes register 1" />
-                <img src={LoveNotes_2} alt="love notes register 2" />
+            <div className="w-full h-1/6">
+                <img className="h-full object-cover" src={LoveNotes_1} alt="love notes register 1" />
             </div>
-            <div>
+            <div className="HELP h-1/2">
             <div>Love Notes</div>
             <div>
                 <ul>
@@ -57,11 +51,11 @@ function Experience() {
             </div>
             </> }
             { page === 3 && <>
-            <div className="HELP">
-                <img src={Jobly_Old} alt="jobly old" />
-                <img src={Jobly_New} alt="jobly new" />
+            <div className="HELP w-full h-1/2">
+                <img className="h-full object-cover" src={Jobly_Old} alt="jobly old" />
+                {/* <img src={Jobly_New} alt="jobly new" /> */}
             </div>
-            <div>
+            <div className="h-1/2">
             <div>Jobly</div>
             <div>
                 <ul>
@@ -73,11 +67,11 @@ function Experience() {
             </div>
             </> }
             { page === 4 && <>
-            <div className="HELP">
-                <img src={Aloisia} alt="aloisia" />
-                <img src={Dermasuri} alt="dermasuri" />
+            <div className="HELP w-full h-1/2">
+                {/* <img src={Aloisia} alt="aloisia" /> */}
+                <img className="h-full object-cover" src={Dermasuri} alt="dermasuri" />
             </div>
-            <div>
+            <div className="h-1/2">
             <div>NK</div>
             <div>
                 <ul>
@@ -88,7 +82,6 @@ function Experience() {
                 </div>
             </div>
             </> }
-            <button className="mt-10 bg-sky-300" onClick={next}>Next</button>
         </div>
     )
 }
