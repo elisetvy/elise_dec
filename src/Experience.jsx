@@ -38,48 +38,70 @@ function Experience() {
             </div>
             </> }
             { page === 2 && <>
-            <div className="w-full h-1/6">
+            <div className="w-full h-5/6 flex justify-center items-center gap-2">
+                <i onClick={() => setPage(1)} className="bi bi-chevron-left hover:cursor-pointer"></i>
                 <img className="h-full object-cover" src={LoveNotes_1} alt="love notes register 1" />
+                <i onClick={() => setPage(3)} className="bi bi-chevron-right hover:cursor-pointer"></i>
             </div>
-            <div className="HELP h-1/2">
-            <div>Love Notes</div>
-            <div>
-                <ul>
-                    <li>Established rigorous validation mechanisms with JSON Schema and tailored logic checks to maintain data integrity and reduce server load caused by invalid or improperly formatted data</li>
-                    <li>Integrated AWS S3 for cost-efficient, scalable, and secure image storage, resulting in increased fault tolerance and reduced data loss incident</li>
-                    <li>Wrote and executed comprehensive unit and integration tests using Jest and Supertest to decrease critical issues post-implementatin</li>
+            <div className="h-fit mt-2 flex justify-center gap-2">
+                <i onClick={() => setPage(1)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
+                <i className="bi bi-circle-fill text-[6px]"></i>
+                <i onClick={() => setPage(3)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
+                <i onClick={() => setPage(4)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
+            </div>
+            <div className="h-1/2 mt-4 text-center">
+            <div className="font-black">Love Notes</div>
+            <div className="pt-2">
+                <ul className="list-disc list-inside px-6 text-sm">
+                    <li>Established rigorous front-end and back-end validation mechanisms</li>
+                    <li>Integrated AWS S3 for cost-efficient, scalable, and secure image storage</li>
+                    <li>Wrote and executed comprehensive unit and integration tests using Jest and Supertest</li>
                 </ul>
                 </div>
             </div>
             </> }
             { page === 3 && <>
-            <div className="HELP w-full h-1/2">
-                <img className="h-full object-cover" src={Jobly_Old} alt="jobly old" />
-                {/* <img src={Jobly_New} alt="jobly new" /> */}
+                <div className="w-full h-5/6 flex justify-center items-center gap-2">
+                <i onClick={() => setPage(2)} className="bi bi-chevron-left hover:cursor-pointer"></i>
+                <img className="h-full object-cover" src={Jobly_New} alt="jobly" />
+                <i onClick={() => setPage(4)} className="bi bi-chevron-right hover:cursor-pointer"></i>
             </div>
-            <div className="h-1/2">
-            <div>Jobly</div>
-            <div>
-                <ul>
-                    <li>Implemented a robust authentication system utilizing industry-standard protocols such as JSON Web Tokens for secure user verification and BCrypt for password encryption</li>
-                    <li>Deployed a loading spinner component to accelerate the First Contentful Paint, ensuring an engaging user experience and encouraging prolonged interaction with the app</li>
-                    <li>Live search with ldoash debounce</li>
+            <div className="h-fit mt-2 flex justify-center gap-2">
+                <i onClick={() => setPage(1)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
+                <i onClick={() => setPage(2)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
+                <i className="bi bi-circle-fill text-[6px]"></i>
+                <i onClick={() => setPage(4)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
+            </div>
+            <div className="h-1/2 mt-4 text-center">
+            <div className="font-black">Jobly</div>
+            <div className="pt-2">
+                <ul className="list-disc list-inside px-6 text-sm">
+                    <li>Implemented authentication with JSON Web Tokens for secure user verification and BCrypt for password encryption</li>
+                    <li>Deployed a loading spinner component to accelerate the First Contentful Paint</li>
+                    <li>Incorporated LIVE search functionality with Lodoash debounce</li>
                 </ul>
                 </div>
             </div>
             </> }
             { page === 4 && <>
-            <div className="HELP w-full h-1/2">
-                {/* <img src={Aloisia} alt="aloisia" /> */}
+            <div className="w-full h-5/6 flex justify-center items-center gap-2">
+                <i onClick={() => setPage(3)} className="bi bi-chevron-left hover:cursor-pointer"></i>
                 <img className="h-full object-cover" src={Dermasuri} alt="dermasuri" />
+                <i className="invisible bi bi-chevron-right hover:cursor-pointer"></i>
             </div>
-            <div className="h-1/2">
-            <div>NK</div>
-            <div>
-                <ul>
-                    <li>Led monthly client meetings to assess goals and align content strategies in preparation for the development and execution of content calendars in collaboration with a team of photographers, graphic designers, and video content creators</li>
-                    <li>Elevated client’s online visibility on TikTok, growing the follower count from under 1,000 to over 10,000 within the initial 6 months of collaboration through continuous audits of trends and high-performing content, in-depth analyses of audience demographic, and enhancement of content quality</li>
-                    <li>Increased client’s Instagram engagement rate and achieved a 122% growth in followers in 90 days by leveraging customer engagement tactics including timely response to messages and comments, interactive stories, and strategic partnerships with other loved brands</li>
+            <div className="h-fit mt-2 flex justify-center gap-2">
+                <i onClick={() => setPage(1)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
+                <i onClick={() => setPage(2)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
+                <i onClick={() => setPage(3)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
+                <i className="bi bi-circle-fill text-[6px]"></i>
+            </div>
+            <div className="h-1/2 mt-4 text-center">
+            <div className="font-black">NK Agency</div>
+            <div className="pt-2">
+                <ul className="list-disc list-inside px-6 text-sm">
+                    <li>Collaborated with client and creative team to develop and execute monthly content calendars</li>
+                    <li>Elevated client’s online visibility on TikTok through continuous audits of trends and high-performing content, in-depth analyses of audience demographic, and enhancement of content quality</li>
+                    <li>Achieved a 122% growth in client's followers in 90 days by leveraging interactive content and strategic partnerships</li>
                 </ul>
                 </div>
             </div>
