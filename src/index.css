@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Nunito Sans';
+  src: url('src/assets/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf');
+}
+
+:root {
+  font-family: 'Nunito Sans';
+}
+
 .HELP {
   border: 1px solid red;
 }
