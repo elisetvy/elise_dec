@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Nunito Sans';
-  src: url('src/assets/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf');
+  font-family: 'Epilogue';
+  src: url('src/assets/Epilogue-VariableFont_wght.ttf');
 }
 
 :root {
-  font-family: 'Nunito Sans';
+  font-family: 'Epilogue';
 }
 
 .bg-pink {
@@ -36,15 +36,34 @@
 }
 
 .bg-green {
-  background: #4ea862;
+  background: #52c167;
 }
 
 .text-green {
-  color: #4ea862;
+  color: #52c167;
 }
 
 .box-shadow {
   box-shadow: 4px 4px;
+}
+
+.highlight-container, .highlight {
+  position: relative;
+}
+
+.highlight-container {
+  display: inline-block;
+}
+
+.highlight-container:before {
+  content: "";
+  display: block;
+  height: 90%;
+  width: 100%;
+  position: absolute;
+  background: #f2db49;
+  transform: rotate(1deg);
+  border-radius: 20% 25% 20% 24%;
 }
 
 .HELP {
