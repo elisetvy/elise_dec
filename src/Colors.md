@@ -1,4 +1,4 @@
-Green: #52c167
+Green: #32a346
 Purple: #905be6
 Blue: #4fa6e1
 Pink: #f0cacd

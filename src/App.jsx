@@ -15,7 +15,7 @@ function App() {
       <div className="">
         <Nav />
       </div>
-      <div className="h-5/6 pb-4">
+      <div className="h-5/6 mb-4">
         <Routes>
             <Route path="/" element={<Landing />}></Route>
             <Route path="/about" element={<About />}></Route>

@@ -1,7 +1,7 @@
 function About() {
 
     return (
-        <div className="h-full bg-white rounded-t-xl overflow-hidden">
+        <div className="h-full max-w-[400px] bg-white rounded-t-xl overflow-hidden">
             <img className="w-full h-2/5 object-cover" src="https://i.pinimg.com/1200x/24/1f/49/241f49ca612ef379a78fdcf7b8471ada.jpg" alt="cat" />
             <div className="h-3/5 flex flex-col justify-center">
                 <div className="text-3xl text-center px-6 flex text-center justify-center items-center gap-4">

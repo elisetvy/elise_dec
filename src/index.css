@@ -16,39 +16,31 @@
   background: #f0cacd;
 }
 
-.text-pink {
-  color: #f0cacd;
-}
-
 .bg-yellow {
   background: #f2db49;
-}
-
-.text-yellow {
-  color: #f2db49;
 }
 
 .bg-white {
   background: #feffff;
 }
 
-.font-white {
-  color: #feffff;
-}
-
-.bg-green {
-  background: #52c167;
-}
-
-.text-green {
-  color: #52c167;
-}
-
 .box-shadow {
   box-shadow: 4px 4px;
 }
 
-.highlight-container, .highlight {
+.about.active {
+  color: #32a346;
+}
+
+.experience.active {
+  color: #905be6;
+}
+
+.contact.active {
+  color: #4fa6e1;
+}
+
+.highlight-container, a.active {
   position: relative;
 }
 
