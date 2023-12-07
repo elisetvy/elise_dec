@@ -11,6 +11,42 @@
   font-family: 'Nunito Sans';
 }
 
+.bg-pink {
+  background: #f0cacd;
+}
+
+.text-pink {
+  color: #f0cacd;
+}
+
+.bg-yellow {
+  background: #f2db49;
+}
+
+.text-yellow {
+  color: #f2db49;
+}
+
+.bg-white {
+  background: #feffff;
+}
+
+.font-white {
+  color: #feffff;
+}
+
+.bg-green {
+  background: #4ea862;
+}
+
+.text-green {
+  color: #4ea862;
+}
+
+.box-shadow {
+  box-shadow: 4px 4px;
+}
+
 .HELP {
   border: 1px solid red;
 }

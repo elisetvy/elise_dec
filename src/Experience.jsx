@@ -28,12 +28,8 @@ function Experience() {
             </div>
             <div className="h-1/2 mt-4 text-center">
             <div className="font-black">Foqal</div>
-            <div className="pt-2">
-                <ul className="list-disc list-inside px-6 text-sm">
-                    <li>Achieved Content Security Policy compliance by replacing Lottie animations containing inline styles with static images</li>
-                    <li>Debugged and configured Slate text editor to preserve formatting and save content properly</li>
-                    <li>Collaborated with a team on implementing the redesign of the client portal using CSS and Bootstrap</li>
-                </ul>
+            <div className="">
+                Debugged and configured Slate text editor, achieved Content Security Policy compliance, and collaborated with a team to implement the redesign of the client portal.
             </div>
             </div>
             </> }
@@ -52,12 +48,8 @@ function Experience() {
             <div className="h-1/2 mt-4 text-center">
             <div className="font-black">Love Notes</div>
             <div className="pt-2">
-                <ul className="list-disc list-inside px-6 text-sm">
-                    <li>Established rigorous front-end and back-end validation mechanisms</li>
-                    <li>Integrated AWS S3 for cost-efficient, scalable, and secure image storage</li>
-                    <li>Wrote and executed comprehensive unit and integration tests using Jest and Supertest</li>
-                </ul>
-                </div>
+                Designed and built a full-stack social media applicaton from scratch that features photo uploading, messaging, and location-based matching.
+            </div>
             </div>
             </> }
             { page === 3 && <>
@@ -75,12 +67,8 @@ function Experience() {
             <div className="h-1/2 mt-4 text-center">
             <div className="font-black">Jobly</div>
             <div className="pt-2">
-                <ul className="list-disc list-inside px-6 text-sm">
-                    <li>Implemented authentication with JSON Web Tokens for secure user verification and BCrypt for password encryption</li>
-                    <li>Deployed a loading spinner component to accelerate the First Contentful Paint</li>
-                    <li>Incorporated LIVE search functionality with Lodoash debounce</li>
-                </ul>
-                </div>
+                Incorporated LIVE search functionality, using Lodash debounce, and revamped the entire user interface with TailwindCSS of a job searching platform.
+            </div>
             </div>
             </> }
             { page === 4 && <>

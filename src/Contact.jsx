@@ -6,7 +6,7 @@ function Contact() {
         <div className="h-full">
             <div className="h-full flex flex-col justify-center items-center gap-10">
                 <div className="text-center">
-                    <div className="font-black">I would LOVE to connect!</div>
+                    <div className="font-black">I would LOVE to connect.</div>
                     <div className="mt-4">Please feel free to book a chat with me on Calendly, reach out to me on one of my socials, or <Link to="mailto:elisetvy@gmail.com" className="underline">shoot me an email</Link>!</div>
                     <div className="mt-2">Talk soon :)</div>
                 </div>
