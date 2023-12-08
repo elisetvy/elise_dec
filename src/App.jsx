@@ -25,7 +25,7 @@ function App() {
         </Routes>
       </div>
       <div className="flex justify-center items-end text-center">
-          <Link to="/" className="bg-yellow px-5 py-1 border border-[#010602] rounded-full text-3xl font-[#010602] box-shadow hover:scale-105">elise vy</Link>
+          <Link to="/" className="bg-yellow px-5 py-1 border border-[#010602] rounded-full text-3xl font-[#010602] box-shadow hover:scale-105">elise ngo</Link>
       </div>
       </BrowserRouter>
       </div>
