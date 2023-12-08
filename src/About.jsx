@@ -48,7 +48,7 @@ function About() {
                         </div>
                         <div className="flex gap-2">
                             <div className="w-1/6 italic text-[#32a346]">Offline</div>
-                            <div className="w-5/6">reading, crochet, trivia nights, romance languages, goose, secrets, mystery</div>
+                            <div className="w-5/6">reading, crochet, trivia nights, llorando en la limo, my goose</div>
                         </div>
                     </div>
                 </div>

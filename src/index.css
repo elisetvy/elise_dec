@@ -31,18 +31,21 @@
 
 .about.active {
   color: #32a346;
+  letter-spacing: 0.1em;
   text-decoration: underline;
   text-underline-offset: 4px;
 }
 
 .experience.active {
   color: #905be6;
+  letter-spacing: 0.1em;
   text-decoration: underline;
   text-underline-offset: 4px;
 }
 
 .contact.active {
   color: #4fa6e1;
+  letter-spacing: 0.1em;
   text-decoration: underline;
   text-underline-offset: 4px;
 }
