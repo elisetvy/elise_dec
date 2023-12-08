@@ -4,16 +4,16 @@ function About() {
 
     return (
         <div className="h-full flex flex-col justify-center items-center gap-4">
-            <div className="relative w-full max-w-[400px] h-1/5 border border-black">
+            <div className="flex-1 h-1/6 relative w-full max-w-[400px] border border-[#010602]">
                 <img className="h-full w-full object-cover" src={Rio} alt="rio" />
-                <div className="absolute -top-1 -left-1 w-[10px] h-[10px] rounded-full bg-[#32a346] border border-black"></div>
-                <div className="absolute -top-1 -right-1 w-[10px] h-[10px] rounded-full bg-[#32a346] border border-black"></div>
-                <div className="absolute -bottom-1 -left-1 w-[10px] h-[10px] rounded-full bg-[#32a346] border border-black"></div>
-                <div className="absolute -bottom-1 -right-1 w-[10px] h-[10px] rounded-full bg-[#32a346] border border-black"></div>
+                <div className="absolute -top-1 -left-1 w-[10px] h-[10px] rounded-full bg-[#32a346] border border-[#010602]"></div>
+                <div className="absolute -top-1 -right-1 w-[10px] h-[10px] rounded-full bg-[#32a346] border border-[#010602]"></div>
+                <div className="absolute -bottom-1 -left-1 w-[10px] h-[10px] rounded-full bg-[#32a346] border border-[#010602]"></div>
+                <div className="absolute -bottom-1 -right-1 w-[10px] h-[10px] rounded-full bg-[#32a346] border border-[#010602]"></div>
             </div>
-            <div className="max-w-[400px] bg-white drop-shadow-md">
+            <div className="flex-0 h-fit max-w-[400px] bg-white drop-shadow-md">
                 <div className="px-4 pt-6 pb-2">
-                    <div className="border border-black ml-2 mr-2 px-2 py-1 opacity-50 text-sm flex justify-between items-center">
+                    <div className="border border-[#010602] ml-2 mr-2 px-2 py-1 opacity-50 text-sm flex justify-between items-center">
                         <div>software engineer</div>
                         <i className="bi bi-search"></i>
                     </div>
@@ -40,7 +40,7 @@ function About() {
                 </div>
                 <div className="px-4">
                     <div className="font-bold">Interests</div>
-                    <div className="border border-black"></div>
+                    <div className="border border-[#010602]"></div>
                     <div className="px-2 pt-2 pb-4 text-xs sm:text-sm flex flex-col gap-2">
                         <div className="flex">
                             <div className="w-1/6 italic italic text-[#32a346]">Online</div>

@@ -10,6 +10,7 @@
 :root {
   font-family: 'Epilogue';
   color: #010602;
+  box-sizing: border-box;
 }
 
 .bg-pink {
@@ -51,4 +52,8 @@
 
 .HELP {
   border: 1px solid red;
+}
+
+.help {
+  border: 1px solid green;
 }
