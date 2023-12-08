@@ -35,32 +35,10 @@ function About() {
                         </div>
                         <div className="flex">
                             <div className="w-1/6 italic">Offline</div>
-                            <div className="w-5/6">reading, crocheting, collaging, spitting bars in multiple languages (natural and programming)</div>
+                            <div className="w-5/6">reading, crocheting, collaging, cooking, guardando segredos em outros idiomas</div>
                         </div>
-
-                        {/* <div className="font-bold">Online <span className="italic">JavaScript, React, TailwindCSS, UI/UX</span></div>
-                        <div>Offline <span className="italic">reading, crocheting, spitting bars </span></div> */}
                     </div>
                 </div>
-{/*
-                <div className="h-full flex flex-col justify-center gap-2">
-                    <div className="text-3xl text-center px-6 flex text-center justify-center items-center gap-4">
-                        <div className="h-full flex flex-col items-end gap-4">
-                            <div className="border border-[#32a346] w-[6px] rotate-[30deg] flex"></div>
-                            <div className="border border-[#32a346] w-[10px]"></div>
-                            <div className="border border-[#32a346] w-[6px] -rotate-[30deg]"></div>
-                        </div>
-                        <div className="">hello world</div>
-                        <div className="h-full flex flex-col gap-4 items-start">
-                            <div className="border border-[#32a346] w-[6px] -rotate-[30deg]"></div>
-                            <div className="border border-[#32a346] w-[10px]"></div>
-                            <div className="border border-[#32a346] w-[6px] rotate-[30deg]"></div>
-                        </div>
-                    </div>
-                    <img className="w-full h-2/5 object-cover" src="https://i.pinimg.com/1200x/24/1f/49/241f49ca612ef379a78fdcf7b8471ada.jpg" alt="cat" />
-                    <div className="px-4 py-4 text-center">I&apos;m Elise, a Full Stack Software Engineer with a background in Language Studies and Marketing.</div>
-                    <div className="px-4 text-center"><b>Interests: </b> reading, crocheting, spitting bars in several languages (natural and programming), collaging, traveling</div>
-                </div> */}
             </div>
         </div>
     )

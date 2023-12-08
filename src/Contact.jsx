@@ -4,7 +4,7 @@ function Contact() {
 
     return (
         <div className="h-full flex justify-center items-center">
-            <div className="relative border border-black bg-white px-4 py-4">
+            <div className="relative w-[400px] border border-black bg-white px-4 py-4">
                 <div className="absolute -top-1 -left-1 w-[10px] h-[10px] rounded-full bg-[#4fa6e1] border border-black"></div>
                 <div className="absolute -top-1 -right-1 w-[10px] h-[10px] rounded-full bg-[#4fa6e1] border border-black"></div>
                 <div className="absolute -bottom-1 -left-1 w-[10px] h-[10px] rounded-full bg-[#4fa6e1] border border-black"></div>
