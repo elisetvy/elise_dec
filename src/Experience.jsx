@@ -23,9 +23,9 @@ function Experience() {
             </div>
             <div className="max-w-[400px] h-fit mt-2 flex justify-center gap-2">
                 <i className="bi bi-circle-fill text-[6px] text-[#905be6]"></i>
-                <i onClick={() => setPage(2)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
-                <i onClick={() => setPage(3)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
-                <i onClick={() => setPage(4)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
+                <i onClick={() => setPage(2)} className="bi bi-circle text-[6px] hover:cursor-pointer hover:scale-125"></i>
+                <i onClick={() => setPage(3)} className="bi bi-circle text-[6px] hover:cursor-pointer hover:scale-125"></i>
+                <i onClick={() => setPage(4)} className="bi bi-circle text-[6px] hover:cursor-pointer hover:scale-125"></i>
             </div>
             <div className="max-w-[400px] mt-4 px-4 py-4 bg-white drop-shadow-md">
                 <div className="font-bold flex justify-between">
@@ -49,10 +49,10 @@ function Experience() {
                 <i onClick={() => setPage(3)} className="bi bi-chevron-right hover:cursor-pointer hover:scale-110 hover:text-[#905be6]"></i>
             </div>
             <div className="max-w-[400px] h-fit mt-2 flex justify-center gap-2">
-                <i onClick={() => setPage(1)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
+                <i onClick={() => setPage(1)} className="bi bi-circle text-[6px] hover:cursor-pointer hover:scale-125"></i>
                 <i className="bi bi-circle-fill text-[6px] text-[#905be6]"></i>
-                <i onClick={() => setPage(3)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
-                <i onClick={() => setPage(4)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
+                <i onClick={() => setPage(3)} className="bi bi-circle text-[6px] hover:cursor-pointer hover:scale-125"></i>
+                <i onClick={() => setPage(4)} className="bi bi-circle text-[6px] hover:cursor-pointer hover:scale-125"></i>
             </div>
             <div className="max-w-[400px] mt-4 px-4 py-4 bg-white drop-shadow-md">
                 <div className="font-bold flex justify-between">
@@ -76,10 +76,10 @@ function Experience() {
                 <i onClick={() => setPage(4)} className="bi bi-chevron-right hover:cursor-pointer hover:scale-110 hover:text-[#905be6]"></i>
             </div>
             <div className="max-w-[400px] h-fit mt-2 flex justify-center gap-2">
-                <i onClick={() => setPage(1)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
-                <i onClick={() => setPage(2)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
+                <i onClick={() => setPage(1)} className="bi bi-circle text-[6px] hover:cursor-pointer hover:scale-125"></i>
+                <i onClick={() => setPage(2)} className="bi bi-circle text-[6px] hover:cursor-pointer hover:scale-125"></i>
                 <i className="bi bi-circle-fill text-[6px] text-[#905be6]"></i>
-                <i onClick={() => setPage(4)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
+                <i onClick={() => setPage(4)} className="bi bi-circle text-[6px] hover:cursor-pointer hover:scale-125"></i>
             </div>
             <div className="max-w-[400px] mt-4 px-4 py-4 bg-white drop-shadow-md">
                 <div className="font-bold flex justify-between">
@@ -103,9 +103,9 @@ function Experience() {
                 <i className="invisible bi bi-chevron-right hover:cursor-pointer"></i>
             </div>
             <div className="max-w-[400px] h-fit mt-2 flex justify-center gap-2">
-                <i onClick={() => setPage(1)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
-                <i onClick={() => setPage(2)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
-                <i onClick={() => setPage(3)} className="bi bi-circle text-[6px] hover:cursor-pointer"></i>
+                <i onClick={() => setPage(1)} className="bi bi-circle text-[6px] hover:cursor-pointer hover:scale-125"></i>
+                <i onClick={() => setPage(2)} className="bi bi-circle text-[6px] hover:cursor-pointer hover:scale-125"></i>
+                <i onClick={() => setPage(3)} className="bi bi-circle text-[6px] hover:cursor-pointer hover:scale-125"></i>
                 <i className="bi bi-circle-fill text-[6px] text-[#905be6]"></i>
             </div>
             <div className="max-w-[400px] mt-4 px-4 py-4 bg-white drop-shadow-md">
