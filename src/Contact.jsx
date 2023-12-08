@@ -5,10 +5,10 @@ function Contact() {
     return (
         <div className="h-full flex justify-center items-center">
             <div className="relative border border-black bg-white px-4 py-4">
-                <div className="absolute -top-1 -left-1 w-[10px] h-[10px] rounded-full bg-yellow border border-black"></div>
-                <div className="absolute -top-1 -right-1 w-[10px] h-[10px] rounded-full bg-yellow border border-black"></div>
-                <div className="absolute -bottom-1 -left-1 w-[10px] h-[10px] rounded-full bg-yellow border border-black"></div>
-                <div className="absolute -bottom-1 -right-1 w-[10px] h-[10px] rounded-full bg-yellow border border-black"></div>
+                <div className="absolute -top-1 -left-1 w-[10px] h-[10px] rounded-full bg-[#4fa6e1] border border-black"></div>
+                <div className="absolute -top-1 -right-1 w-[10px] h-[10px] rounded-full bg-[#4fa6e1] border border-black"></div>
+                <div className="absolute -bottom-1 -left-1 w-[10px] h-[10px] rounded-full bg-[#4fa6e1] border border-black"></div>
+                <div className="absolute -bottom-1 -right-1 w-[10px] h-[10px] rounded-full bg-[#4fa6e1] border border-black"></div>
                 <div className="h-full flex flex-col justify-center items-center gap-4">
                     <div className="text-center">
                         <div className="font-black text-xl">I would <span className="text-[#f94355]">love</span> to connect.</div>

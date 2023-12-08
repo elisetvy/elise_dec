@@ -30,33 +30,23 @@
 
 .about.active {
   color: #32a346;
+  letter-spacing: 0.1em;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .experience.active {
   color: #905be6;
+  letter-spacing: 0.1em;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .contact.active {
   color: #4fa6e1;
-}
-
-.highlight-container, a.active {
-  position: relative;
-}
-
-.highlight-container {
-  display: inline-block;
-}
-
-.highlight-container:before {
-  content: "";
-  display: block;
-  height: 90%;
-  width: 100%;
-  position: absolute;
-  background: #f2db49;
-  transform: rotate(1deg);
-  border-radius: 20% 25% 20% 24%;
+  letter-spacing: 0.1em;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .HELP {
