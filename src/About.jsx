@@ -41,12 +41,12 @@ function About() {
                 <div className="px-4">
                     <div className="font-bold">Interests</div>
                     <div className="border border-[#010602]"></div>
-                    <div className="px-2 pt-2 pb-4 text-xs sm:text-sm flex flex-col gap-2">
-                        <div className="flex">
+                    <div className="px-2 pt-2 pb-4 text-sm flex flex-col gap-2">
+                        <div className="flex gap-2">
                             <div className="w-1/6 italic italic text-[#32a346]">Online</div>
                             <div className="w-5/6">regex, Pascal&apos;s triangle, Dijkstra&apos;s algorithm, 418 I&apos;m a teapot, bogosort </div>
                         </div>
-                        <div className="flex">
+                        <div className="flex gap-2">
                             <div className="w-1/6 italic text-[#32a346]">Offline</div>
                             <div className="w-5/6">reading, crochet, trivia nights, romance languages, my goose</div>
                         </div>
