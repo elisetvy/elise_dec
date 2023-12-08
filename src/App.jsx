@@ -15,7 +15,7 @@ function App() {
       <div className="">
         <Nav />
       </div>
-      <div className="h-5/6 mb-4">
+      <div className="h-5/6 pb-4">
         <Routes>
             <Route path="/" element={<Landing />}></Route>
             <Route path="/about" element={<About />}></Route>
@@ -24,7 +24,7 @@ function App() {
             <Route path="*" element={<Navigate to="/" />}></Route>
         </Routes>
       </div>
-      <div className="flex flex-col justify-center items-center text-center">
+      <div className="flex justify-center items-end text-center">
           <Link to="/" className="bg-yellow px-5 py-1 border border-black rounded-full text-3xl font-black box-shadow hover:scale-105">elise vy</Link>
       </div>
       </BrowserRouter>
