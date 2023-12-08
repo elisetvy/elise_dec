@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'Epilogue';
-  src: url('src/assets/Epilogue-VariableFont_wght.ttf');
+  src: url('../src/assets/Epilogue-VariableFont_wght.ttf');
 }
 
 :root {
