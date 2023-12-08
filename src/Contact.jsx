@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import Elise from "./assets/Elise.png"
+import HB from "./assets/HB.png"
 
 function Contact() {
 
@@ -11,7 +11,7 @@ function Contact() {
                 <div className="absolute -top-1 -right-1 w-[10px] h-[10px] rounded-full bg-[#4fa6e1] border border-black"></div>
                 <div className="absolute -bottom-1 -left-1 w-[10px] h-[10px] rounded-full bg-[#4fa6e1] border border-black"></div>
                 <div className="absolute -bottom-1 -right-1 w-[10px] h-[10px] rounded-full bg-[#4fa6e1] border border-black"></div>
-                <img className="h-full w-full object-cover" src={Elise} alt="elise" />
+                <img className="h-full w-full object-cover" src={HB} alt="elise" />
             </div>
             <div className="h-fit max-w-[400px] bg-white drop-shadow-md text-center px-4 py-4">
                 <div className="font-bold text-xl">I would <span className="text-[#f94355]">love</span> to connect.</div>
