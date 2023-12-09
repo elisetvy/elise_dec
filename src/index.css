@@ -7,6 +7,10 @@
   src: url('../src/assets/Epilogue-VariableFont_wght.ttf');
 }
 
+html {
+  height: 100vh;
+}
+
 :root {
   font-family: 'Epilogue';
   color: #010602;
