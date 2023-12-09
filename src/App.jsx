@@ -24,8 +24,8 @@ function App() {
             <Route path="*" element={<Navigate to="/" />}></Route>
         </Routes>
       </div>
-      <div className="ml-auto mr-auto">
-          <Link to="/" className="bg-yellow px-5 py-1 border border-[#010602] rounded-full text-3xl font-[#010602] box-shadow hover:scale-105">elise ngo</Link>
+      <div className="ml-auto mr-auto hover:scale-105">
+          <Link to="/" className="bg-yellow px-5 py-1 border border-[#010602] rounded-full text-3xl font-[#010602] box-shadow">elise ngo</Link>
       </div>
       </BrowserRouter>
       </div>
