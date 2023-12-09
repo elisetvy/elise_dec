@@ -21,7 +21,7 @@ function Experience() {
                 <img className="h-full object-cover" src={Foqal_Redesign} alt="foqal redesign" />
                 <i onClick={() => setPage(2)} className="bi bi-chevron-right hover:cursor-pointer hover:scale-110 hover:text-[#905be6]"></i>
             </div>
-            <div className="h-fit mt-2 flex justify-center gap-2">
+            <div className="h-fit mt-3 flex justify-center gap-2">
                 <i className="bi bi-circle-fill text-[6px] text-[#905be6]"></i>
                 <i onClick={() => setPage(2)} className="bi bi-circle text-[6px] hover:cursor-pointer hover:scale-125"></i>
                 <i onClick={() => setPage(3)} className="bi bi-circle text-[6px] hover:cursor-pointer hover:scale-125"></i>
@@ -48,7 +48,7 @@ function Experience() {
                 <img className="h-full object-cover" src={LoveNotes_1} alt="love notes" />
                 <i onClick={() => setPage(3)} className="bi bi-chevron-right hover:cursor-pointer hover:scale-110 hover:text-[#905be6]"></i>
             </div>
-            <div className="h-fit mt-2 flex justify-center gap-2">
+            <div className="h-fit mt-3 flex justify-center gap-2">
                 <i onClick={() => setPage(1)} className="bi bi-circle text-[6px] hover:cursor-pointer hover:scale-125"></i>
                 <i className="bi bi-circle-fill text-[6px] text-[#905be6]"></i>
                 <i onClick={() => setPage(3)} className="bi bi-circle text-[6px] hover:cursor-pointer hover:scale-125"></i>
@@ -75,7 +75,7 @@ function Experience() {
                 <img className="h-full object-cover" src={Jobly_New} alt="jobly" />
                 <i onClick={() => setPage(4)} className="bi bi-chevron-right hover:cursor-pointer hover:scale-110 hover:text-[#905be6]"></i>
             </div>
-            <div className="h-fit mt-2 flex justify-center gap-2">
+            <div className="h-fit mt-3 flex justify-center gap-2">
                 <i onClick={() => setPage(1)} className="bi bi-circle text-[6px] hover:cursor-pointer hover:scale-125"></i>
                 <i onClick={() => setPage(2)} className="bi bi-circle text-[6px] hover:cursor-pointer hover:scale-125"></i>
                 <i className="bi bi-circle-fill text-[6px] text-[#905be6]"></i>
@@ -102,7 +102,7 @@ function Experience() {
                 <img className="h-full object-cover" src={Dermasuri} alt="dermasuri" />
                 <i className="invisible bi bi-chevron-right hover:cursor-pointer"></i>
             </div>
-            <div className="h-fit mt-2 flex justify-center gap-2">
+            <div className="h-fit mt-3 flex justify-center gap-2">
                 <i onClick={() => setPage(1)} className="bi bi-circle text-[6px] hover:cursor-pointer hover:scale-125"></i>
                 <i onClick={() => setPage(2)} className="bi bi-circle text-[6px] hover:cursor-pointer hover:scale-125"></i>
                 <i onClick={() => setPage(3)} className="bi bi-circle text-[6px] hover:cursor-pointer hover:scale-125"></i>
