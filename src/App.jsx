@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="w-screen h-[100dvh] flex flex-col justify-center items-center px-10 py-10 bg-pink">
-      <div className="w-full flex flex-col justify-center gap-2">
+      <div className="w-full h-full flex flex-col justify-center gap-2">
       <BrowserRouter>
       <div className="max-w-[425px] ml-auto mr-auto">
         <Nav />
