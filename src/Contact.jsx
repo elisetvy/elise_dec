@@ -6,7 +6,7 @@ function Contact() {
 
     return (
         <div className="h-full flex flex-col justify-between items-center gap-4">
-            <div className="relative flex-1 h-3/6 w-full border border-[#010602]">
+            <div className="relative flex-1 h-[50px] w-full border border-[#010602]">
                 <div className="absolute -top-1 -left-1 w-[10px] h-[10px] rounded-full bg-[#4fa6e1] border border-[#010602]"></div>
                 <div className="absolute -top-1 -right-1 w-[10px] h-[10px] rounded-full bg-[#4fa6e1] border border-[#010602]"></div>
                 <div className="absolute -bottom-1 -left-1 w-[10px] h-[10px] rounded-full bg-[#4fa6e1] border border-[#010602]"></div>
