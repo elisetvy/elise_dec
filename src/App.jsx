@@ -12,10 +12,10 @@ function App() {
     <div className="w-screen h-[100dvh] flex flex-col justify-center items-center px-10 py-10 bg-pink">
       <div className="w-full h-full flex flex-col justify-center gap-2">
       <BrowserRouter>
-      <div className="">
+      <div className="max-w-[425px] ml-auto mr-auto">
         <Nav />
       </div>
-      <div className="h-5/6 max-h-[600px] pb-4">
+      <div className="h-5/6 max-w-[425px] max-h-[600px] pb-4 flex ml-auto mr-auto">
         <Routes>
             <Route path="/" element={<Landing />}></Route>
             <Route path="/about" element={<About />}></Route>
@@ -24,7 +24,7 @@ function App() {
             <Route path="*" element={<Navigate to="/" />}></Route>
         </Routes>
       </div>
-      <div className="flex justify-center items-end text-center">
+      <div className="ml-auto mr-auto">
           <Link to="/" className="bg-yellow px-5 py-1 border border-[#010602] rounded-full text-3xl font-[#010602] box-shadow hover:scale-105">elise ngo</Link>
       </div>
       </BrowserRouter>

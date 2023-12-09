@@ -4,14 +4,14 @@ function About() {
 
     return (
         <div className="h-full flex flex-col justify-center items-center gap-4">
-            <div className="flex-1 h-1/6 relative w-full max-w-[425px] border border-[#010602]">
+            <div className="flex-1 h-1/6 relative w-full border border-[#010602]">
                 <img className="h-full w-full object-cover" src={Rio} alt="rio" />
                 <div className="absolute -top-1 -left-1 w-[10px] h-[10px] rounded-full bg-[#32a346] border border-[#010602]"></div>
                 <div className="absolute -top-1 -right-1 w-[10px] h-[10px] rounded-full bg-[#32a346] border border-[#010602]"></div>
                 <div className="absolute -bottom-1 -left-1 w-[10px] h-[10px] rounded-full bg-[#32a346] border border-[#010602]"></div>
                 <div className="absolute -bottom-1 -right-1 w-[10px] h-[10px] rounded-full bg-[#32a346] border border-[#010602]"></div>
             </div>
-            <div className="flex-0 h-fit max-w-[425] bg-white drop-shadow-md">
+            <div className="flex-0 h-fit bg-white drop-shadow-md">
                 <div className="px-4 pt-6 pb-2">
                     <div className="border border-[#010602] ml-2 mr-2 px-2 py-1 opacity-50 text-sm flex justify-between items-center">
                         <div>software engineer</div>
