@@ -10,12 +10,12 @@ function App() {
 
   return (
     <div className="w-screen h-[100dvh] flex flex-col justify-center items-center px-10 py-10 bg-pink">
-      <div className="w-full h-full flex flex-col justify-between">
+      <div className="w-full h-full flex flex-col justify-center gap-5">
       <BrowserRouter>
       <div className="">
         <Nav />
       </div>
-      <div className="h-5/6 pb-4">
+      <div className="h-5/6 max-h-[600px] pb-4">
         <Routes>
             <Route path="/" element={<Landing />}></Route>
             <Route path="/about" element={<About />}></Route>
