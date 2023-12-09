@@ -35,7 +35,7 @@ function About() {
                                 <div className="w-[3px] border border-[#32a346] rotate-[30deg]"></div>
                             </div>                            </div>
                             </div>
-                        <div className="mt-2">I specialize in full-stack Javascript development, React, Node.js/Express, TailwindCSS, and SQL databases. </div>
+                        <div className="mt-2">I specialize in full-stack Javascript development, React, Express, TailwindCSS, and SQL databases. </div>
                     </div>
                 </div>
                 <div className="px-4">
