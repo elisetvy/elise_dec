@@ -1,4 +1,4 @@
-import Collage_2 from "./assets/Collage 2.webp"
+import Collage from "./assets/Collage 2 - LQ.webp"
 
 function Landing() {
 
@@ -9,7 +9,7 @@ function Landing() {
                 <div className="absolute -top-1 -right-1 w-[10px] h-[10px] rounded-full bg-yellow border border-[#010602]"></div>
                 <div className="absolute -bottom-1 -left-1 w-[10px] h-[10px] rounded-full bg-yellow border border-[#010602]"></div>
                 <div className="absolute -bottom-1 -right-1 w-[10px] h-[10px] rounded-full bg-yellow border border-[#010602]"></div>
-                <img className="border border-[#010602] h-full w-full object-cover" src={Collage_2} alt="collage" />
+                <img className="border border-[#010602] h-full w-full object-cover" src={Collage} alt="collage" />
             </div>
         </div>
     )
