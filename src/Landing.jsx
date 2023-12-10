@@ -1,4 +1,4 @@
-import Collage_2 from "./assets/Collage 2.png"
+import Collage_2 from "./assets/Collage 2.webp"
 
 function Landing() {
 
