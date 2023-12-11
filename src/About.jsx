@@ -1,4 +1,4 @@
-import Rio from "./assets/Rio.png";
+import Rio from "./assets/Rio.webp";
 
 function About() {
 
