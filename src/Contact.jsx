@@ -17,9 +17,9 @@ function Contact() {
                 <div className="font-bold text-xl">I would <span className="text-[#f94355]">love</span> to connect.</div>
                 <div className="mt-2 mb-4 text-sm">Please feel free to reach out to me on one of my socials, book a chat with me on Calendly, or <Link to="mailto:elisetvy@gmail.com" className="underline hover:text-[#f94355]">shoot me an email</Link>!</div>
                 <div className="flex justify-center gap-4">
-                    <Link className="" to="https://www.linkedin.com/in/elisetvy/" target="_blank"><img className="h-10 hover:scale-105" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png" alt="linkedin" /></Link>
+                    <Link className="" to="https://www.linkedin.com/in/elisengo/" target="_blank"><img className="h-10 hover:scale-105" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png" alt="linkedin" /></Link>
                     <Link className="" to="https://github.com/elisetvy" target="_blank"><img className="h-10 hover:scale-105" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" /></Link>
-                    <Link className="" to="https://calendly.com/elisetvy" target="_blank"><img className="h-10 hover:scale-105" src="https://www.insiteful.com.au/wp-content/uploads/2022/12/calendly-logo.webp" alt="calendly" /></Link>
+                    <Link className="" to="https://calendly.com/elisengo" target="_blank"><img className="h-10 hover:scale-105" src="https://www.insiteful.com.au/wp-content/uploads/2022/12/calendly-logo.webp" alt="calendly" /></Link>
                 </div>
             </div>
         </div>
