@@ -15,7 +15,7 @@ function App() {
       <div className="max-w-[425px] ml-auto mr-auto">
         <Nav />
       </div>
-      <div className="h-5/6 max-w-[425px] max-h-[600px] pb-4 flex ml-auto mr-auto">
+      <div className="h-5/6 max-h-[600px] pb-6 flex ml-auto mr-auto">
         <Routes>
             <Route path="/" element={<Landing />}></Route>
             <Route path="/about" element={<About />}></Route>

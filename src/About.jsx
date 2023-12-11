@@ -3,7 +3,7 @@ import Rio from "./assets/Rio.png";
 function About() {
 
     return (
-        <div className="h-full flex flex-col justify-center items-center gap-4">
+        <div className="max-w-[425px] h-full flex flex-col justify-center items-center gap-4">
             <div className="flex-1 h-[50px] relative w-full border border-[#010602]">
                 <img className="h-full w-full object-cover" src={Rio} alt="rio" />
                 <div className="absolute -top-1 -left-1 w-[10px] h-[10px] rounded-full bg-[#32a346] border border-[#010602]"></div>

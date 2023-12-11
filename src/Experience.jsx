@@ -10,7 +10,7 @@ function Experience() {
     const [page, setPage] = useState(1);
 
     return (
-        <div className="h-full flex flex-col justify-between items-center">
+        <div className="max-w-[425px] h-full flex flex-col justify-between items-center">
             { page === 1 && <>
             <div className="relative border border-[#010602] h-5/6 flex justify-center items-center gap-2">
             <div className="absolute -top-1 -left-1 w-[10px] h-[10px] rounded-full bg-[#905be6] border border-[#010602]"></div>
