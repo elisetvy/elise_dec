@@ -1,4 +1,4 @@
-import Collage from "./assets/Collage 2 - LQ.webp"
+import Collage from "./assets/Collage.webp"
 
 function Landing() {
 

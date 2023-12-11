@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-import Foqal_Redesign from "./assets/Foqal - Redesign.png";
-import LoveNotes_1 from "./assets/Love Notes - Register 1.png";
-import Jobly_New from "./assets/Jobly - New.png";
-import Dermasuri from "./assets/Dermasuri - 1.png"
+import Foqal from "./assets/Foqal - Redesign.webp";
+import LoveNotes from "./assets/Love Notes.webp";
+import Jobly from "./assets/Jobly.webp";
+import Dermasuri from "./assets/Dermasuri.webp"
 
 function Experience() {
     const [page, setPage] = useState(1);
@@ -18,7 +18,7 @@ function Experience() {
                 <div className="absolute -bottom-1 -left-1 w-[10px] h-[10px] rounded-full bg-[#905be6] border border-[#010602]"></div>
                 <div className="absolute -bottom-1 -right-1 w-[10px] h-[10px] rounded-full bg-[#905be6] border border-[#010602]"></div>
                 <i className="invisible bi bi-chevron-left hover:cursor-pointer"></i>
-                <img className="h-full object-cover" src={Foqal_Redesign} alt="foqal redesign" />
+                <img className="h-full object-cover" src={Foqal} alt="foqal" />
                 <i onClick={() => setPage(2)} className="bi bi-chevron-right hover:cursor-pointer hover:scale-110 hover:text-[#905be6]"></i>
             </div>
             <div className="h-fit mt-3 flex justify-center gap-2">
@@ -45,7 +45,7 @@ function Experience() {
                 <div className="absolute -bottom-1 -left-1 w-[10px] h-[10px] rounded-full bg-[#905be6] border border-[#010602]"></div>
                 <div className="absolute -bottom-1 -right-1 w-[10px] h-[10px] rounded-full bg-[#905be6] border border-[#010602]"></div>
                 <i onClick={() => setPage(1)} className="bi bi-chevron-left hover:cursor-pointer hover:scale-110 hover:text-[#905be6]"></i>
-                <img className="h-full object-cover" src={LoveNotes_1} alt="love notes" />
+                <img className="h-full object-cover" src={LoveNotes} alt="love notes" />
                 <i onClick={() => setPage(3)} className="bi bi-chevron-right hover:cursor-pointer hover:scale-110 hover:text-[#905be6]"></i>
             </div>
             <div className="h-fit mt-3 flex justify-center gap-2">
@@ -72,7 +72,7 @@ function Experience() {
                 <div className="absolute -bottom-1 -left-1 w-[10px] h-[10px] rounded-full bg-[#905be6] border border-[#010602]"></div>
                 <div className="absolute -bottom-1 -right-1 w-[10px] h-[10px] rounded-full bg-[#905be6] border border-[#010602]"></div>
                 <i onClick={() => setPage(2)} className="bi bi-chevron-left hover:cursor-pointer hover:scale-110 hover:text-[#905be6]"></i>
-                <img className="h-full object-cover" src={Jobly_New} alt="jobly" />
+                <img className="h-full object-cover" src={Jobly} alt="jobly" />
                 <i onClick={() => setPage(4)} className="bi bi-chevron-right hover:cursor-pointer hover:scale-110 hover:text-[#905be6]"></i>
             </div>
             <div className="h-fit mt-3 flex justify-center gap-2">

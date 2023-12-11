@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import HB from "./assets/HB.png"
+import HB from "./assets/HB.webp"
 
 function Contact() {
 
